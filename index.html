@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+    <title>Vent</title>
+</head>
+<body>
+    <header>
+        <img src="styles/consumer_white.png" alt="Perfil" onclick="login()">
+        <h2>Vent App</h2>
+        <img src="styles/menu_white.png" alt="Mais opções">
+    </header>
+    <main>
+        <div class="card">
+            <h3>Material interativo</h3>
+            <p>
+                Artigos, vídeos e quizzes sobre autoestima e desenvolvimento pessoal serão disponibilizados para promover a conscientização e o aprendizado contínuo. 
+
+            </p>
+        </div>
+        <div class="card">
+            <h3>Artigos</h3>
+            <p>
+                Artigos, vídeos e quizzes sobre autoestima e desenvolvimento pessoal serão disponibilizados para promover a conscientização e o aprendizado contínuo. 
+
+            </p>
+        </div>
+        <div class="card">
+            <h3>Videos</h3>
+            <p>
+                Artigos, vídeos e quizzes sobre autoestima e desenvolvimento pessoal serão disponibilizados para promover a conscientização e o aprendizado contínuo. 
+
+            </p>
+        </div>
+    </main>
+
+    <aside id="chats">
+        <div class="left" id="chats_tab">
+            <header>
+                <h2>Mensagens</h2>
+            </header>
+            <div class="list-item">
+                <img src="styles/consumer_white.png" alt="">
+                <p>
+                Conato 1
+                </p>
+            </div>
+            <div class="list-item">
+                <img src="styles/consumer_white.png" alt="">
+                <p>
+                Conato 2
+                </p>
+            </div>
+            <div class="list-item">
+                <img src="styles/consumer_white.png" alt="">
+                <p>
+                Conato 3
+                </p>
+            </div>
+            <div class="list-item">
+                <img src="styles/consumer_white.png" alt="">
+                <p>
+                Conato 4
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    <aside id="network">
+        <div class="right" id="network_tab">
+            <header>
+                <h2>Mensagens</h2>
+            </header>
+            <div class="card">
+                <h3>Fóruns de discussões</h3>
+            </div>
+            <div class="card">
+                <h3>Fale com um especialista</h3>
+            </div>
+            
+        </div>
+
+    </aside>
+
+    <aside id="login">
+        <div class="profile" id="login_tab">
+            <header  style="z-index: 1;">
+                <h2>Login</h2>
+                <img src="styles/exit_white.png" alt="sair" onclick="voltar()">
+
+            </header>
+            <img src="styles/login_bg.png" alt="imagem" style="width: 100%; max-width: 100%;">
+            <input type="text" placeholder="Usuário">
+            <input type="text" placeholder="Senha">
+            <button> Entrar </button>
+            <a href="">Esqueci minha senha</a><br>
+            <p>Não possui uma conta? <a href=""> Cadastrar</a></p>
+        </div>
+
+    </aside>
+
+    <div> Icons made by <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+    <nav id="navbar">
+        <img src="styles/chat_white.png" alt="conversas" onclick="chats()">
+        <img src="styles/home_white.png" alt="Inicio" onclick="homepage()">
+        <img src="styles/network_white.png" alt="rede" onclick="network()">
+    </nav>
+</body>
+</html>
