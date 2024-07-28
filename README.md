@@ -24,12 +24,6 @@ Usuários poderão:
 - Interagir com especialistas da psicologia
 - Conversar em chat com um ambiente seguro
 
-### Screenshot
-
-![](./Screenshot-Desktop.png)
-
-![](./Screenshot-Mobile.png)
-
 ### Links
 
 - Solution URL: [Github](https://github.com/pedro-mizael/VentApp)
